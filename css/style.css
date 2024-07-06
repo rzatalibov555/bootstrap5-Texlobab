@@ -1,0 +1,82 @@
+
+
+.myImgSize{
+    height:750px;
+    object-fit: cover;
+}
+
+/* .padding0{
+    padding: 0px;
+} */
+
+
+
+/* .main{
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    margin: 5px;
+}    */
+
+
+
+
+.main1{
+    width: 50%;
+    height: 200px;
+    float: left;
+    background: red;
+
+    color: white;
+    font-size: 40px;
+    
+}
+
+.main2{
+    width: 50%;
+    height: 200px;
+    float: left;
+    background: blue;
+    color: white;
+    font-size: 40px;
+}
+
+
+.main3{
+    width: 250px;
+    height: 250px;
+    /* float: left; */
+    background: pink;
+    color: white;
+    font-size: 40px;
+}
+
+.main_1{
+    width: 100%;
+    min-height: 300px;
+    background: red;
+    float: left;
+}
+
+.main_2{
+    width: 100%;
+    min-height: 300px;
+    background: blue;
+    float: left;
+}
+
+.main_3{
+    width: 100%;
+    min-height: 300px;
+    background: green;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .myImgSize{
+        height:450px;
+        object-fit: cover;
+    }
+  }
+  
+

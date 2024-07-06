@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.r_navbar{
+    width: 100%;
+    min-height: 70px;
+    background: lightgrey;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.r_navbar ul{
+    padding: 0;
+    margin: 0;
+}
+
+.r_navbar ul li{
+    float: left;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.r_navbar ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+#home{
+    width: 100%;
+    min-height: 800px;
+    background: lightgreen;
+    float: left;
+}
+
+.about{
+    width: 100%;
+    min-height: 800px;
+    background: lightblue;
+    float: left;
+}
+
+#contact{
+    width: 100%;
+    min-height: 800px;
+    background: lightpink;
+    float: left;
+}
